@@ -1,0 +1,55 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+li,
+ul,
+ol,
+blockquote,
+pre,
+code,
+input,
+textarea,
+select,
+nav,
+footer,
+header,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display:grid;
+
+}
+.logo{
+  display:grid;
+  justify-content:center;
+}
+.header{
+  display:grid;
+  justify-content:center;
+  
+}
+
+.grid-layout{
+  width:80%;
+  margin: 0 auto;
+}
+
+p{
+  padding: 1rem;
+}
+
+
+
+@import 'base/base';
+
+@import 'components/card-general';
