@@ -29,6 +29,11 @@ body{
   display:grid;
 
 }
+.grid-layout{
+  width:80%;
+  margin: 0 auto;
+}
+
 .logo{
   display:grid;
   justify-content:center;
@@ -36,12 +41,7 @@ body{
 .header{
   display:grid;
   justify-content:center;
-  
-}
 
-.grid-layout{
-  width:80%;
-  margin: 0 auto;
 }
 
 p{
