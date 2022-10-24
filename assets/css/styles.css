@@ -59,9 +59,9 @@ h2 {
 .card-container {
   width: 100%;
   height: 100%;
-  display: flex;
+  display: grid;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   color: #191919;
   padding: 3rem;
@@ -78,14 +78,9 @@ h2 {
   width: 208px;
   height: 24px;
   margin-bottom: 16px;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
-}
-.card-container__title--small {
-  font-size: 12px;
-  width: 100px;
-  height: 16px;
 }
 .card-container__text {
   font-weight: 600;
@@ -96,22 +91,17 @@ h2 {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
 }
 
 .card-container2 {
-  display: flex;
+  display: grid;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: #191919;
-}
-.card-container2__title--small {
-  font-size: 12px;
-  width: 100px;
-  height: 16px;
 }
 .card-container2__link {
   font-weight: 600;
@@ -128,9 +118,9 @@ h2 {
   width: 208px;
   height: 24px;
   margin-bottom: 16px;
-  display: flex;
+  display: grid;
   justify-content: center;
-  align-items: center;
+  align-content: space-around;
 }
 .card-container2__link:hover {
   font-weight: 600;
@@ -147,14 +137,9 @@ h2 {
   width: 208px;
   height: 24px;
   margin-bottom: 16px;
-  display: flex;
+  display: grid;
   justify-content: center;
-  align-items: center;
-}
-.card-container2__link--small {
-  font-size: 12px;
-  width: 100px;
-  height: 16px;
+  align-content: space-around;
 }
 .card-container2__text {
   font-weight: 600;
@@ -168,14 +153,9 @@ h2 {
   width: 208px;
   height: 24px;
   margin-bottom: 16px;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
-}
-.card-container2__text--small {
-  font-size: 12px;
-  width: 100px;
-  height: 16px;
 }
 
 .parrafo {
